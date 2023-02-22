@@ -54,12 +54,12 @@ body {
 	text-decoration: none;
 }
 
-.navigation.nav-list-opened {
+/*.navigation.nav-list-opened {
 	background-color: #00bcd4;
 	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.45);
 	-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.45);
 	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.45);
-}
+}*/
 
 .navigation.nav-list-opened .nav-list {
 	display: flex;
@@ -90,13 +90,6 @@ body {
 	display: block;
 }
 
-.navigation .menu-button .close-icon {
-	display: none;
-}
-
-.navigation.nav-list-opened .menu-button .open-icon {
-	display: none;
-}
 
 .navigation.nav-list-opened .menu-button .close-icon {
 	display: block;
@@ -107,26 +100,7 @@ body {
 	background: 0;
 }
 
-.github {
-	width: 75px;
-	fill: #FFFFFF;
-}
 
-.github:hover {
-	fill: #8e24aa;
-}
-
-.freecodecamp {
-	width: 250px;
-}
-
-.freecodecamp:hover {
-	fill: #8e24aa;
-}
-
-.freecodecamp:hover .path-color{
-	fill: #8e24aa;
-}
 
 .page-header {
 	background-color: #00acc1;
@@ -147,13 +121,12 @@ body {
 
 .wrapper {
 	padding-left: 20px;
-	margin-right: 20px;
+	padding-right: 20px;
 }
 
 .about-me {
 	padding-bottom: 30px;
 	border-bottom: 2px solid #26c6da;
-
 }
 
 .section-title {
@@ -350,11 +323,4 @@ body {
 		padding-bottom: 10px;
 	}
 
-	.github {
-		width: 50px;
-	}
-
-	.freecodecamp {
-		width: 150px;
-	}
 }
